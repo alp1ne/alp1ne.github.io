@@ -34,7 +34,7 @@ siteRotation="0"
 
 >
 
-<link text="VISIT MY GITHUB" url="https://github.com/alp1ne" />
+<link text="VISIT MY GITHUB" url="https://github.com/alp1ne" target="_blank" />
 <link text="FIND ME ON XDA" url="http://forum.xda-developers.com/member.php?u=5281000" target="_blank" />
 
 </settings>

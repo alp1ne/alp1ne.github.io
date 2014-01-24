@@ -21,7 +21,7 @@ backgroundGradientColor2="0x000000"
 backgroundGradientAlphaPercent="40"
 
 borderColor="0xffffff"
-borderThickness="10"
+borderThickness="5"
 
 ownLogoXOffset="3"
 taglineXOffset="2"
@@ -29,13 +29,12 @@ taglineYOffset="-9"
 mainXOffset="-2"
 linkXOffset="2"
 
-introBlurAmount="20"
+introBlurAmount="25"
 siteRotation="0"
 
 >
 
 <link text="VISIT MY GITHUB" url="https://github.com/alp1ne" />
-<link text="" url="http://www.warmforestflash.com/" target="_blank" />
-<link text="VISIT ME ON LINKEDIN" url="http://www.warmforestflash.com/" target="_blank" />
-	
+<link text="FIND ME ON XDA" url="http://forum.xda-developers.com/member.php?u=5281000" target="_blank" />
+
 </settings>

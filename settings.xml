@@ -2,8 +2,8 @@
 <settings
 
 nameText="alp1ne developement"
-taglineText="awesome + code + swag"
-mainText="awesomeness under construction"
+taglineText="access error"
+mainText="site under construction"
 
 useOwnLogo="false"
 logoFilePath="logo.png"
@@ -35,7 +35,7 @@ siteRotation="0"
 >
 
 <link text="VISIT MY GITHUB" url="https://github.com/alp1ne" />
-<link text="DOWNLOAD MY RESUMÉ" url="http://www.warmforestflash.com/" target="_blank" />
+<link text="" url="http://www.warmforestflash.com/" target="_blank" />
 <link text="VISIT ME ON LINKEDIN" url="http://www.warmforestflash.com/" target="_blank" />
 	
 </settings>

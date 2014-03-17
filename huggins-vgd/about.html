@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Video Game Design&nbsp; &nbsp; &nbsp;Kyle Huggins - Huggins VGD</title>
+<title>About - Video Game Design&nbsp; &nbsp; &nbsp;Kyle Huggins</title>
 
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <!--[if IE]>
@@ -42,8 +42,12 @@ h2.wsite-product-title {}
 
 <style type='text/css'>
 .wsite-header {
-	background-image: url(uploads/2/3/9/7/23973381/header_images/1395093101.jpg) !important;
+	background-image: url(uploads/2/3/9/7/23973381/header_images/1395093672.png) !important;
 	background-position: 0 0 !important;
+}
+.wsite-header {
+	_background-image: none !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='');
 }
 </style>
 <script><!--
@@ -57,7 +61,7 @@ var STYLE_PREFIX = 'wsite';
 <script type='text/javascript'><!--
 var IS_ARCHIVE=1;
 (function(jQuery){
-function initFlyouts(){initPublishedFlyoutMenus([{"id":"945339324370837524","title":"Home","url":"index.html","target":""},{"id":"600949399968175944","title":"About","url":"about.html","target":""},{"id":"861702271273381661","title":"Games","url":"games.html","target":""},{"id":"483595883311213514","title":"Misc.","url":"misc.html","target":""},{"id":"492092641724226078","title":"Feeds","url":"feeds.html","target":""},{"id":"544917285985622539","title":"Comments","url":"comments.html","target":""}],"945339324370837524","<li><a href='#'>{{title}}<\/a><\/li>",'active',false)}
+function initFlyouts(){initPublishedFlyoutMenus([{"id":"945339324370837524","title":"Home","url":"index.html","target":""},{"id":"600949399968175944","title":"About","url":"about.html","target":""},{"id":"861702271273381661","title":"Games","url":"games.html","target":""},{"id":"483595883311213514","title":"Misc.","url":"misc.html","target":""},{"id":"492092641724226078","title":"Feeds","url":"feeds.html","target":""},{"id":"544917285985622539","title":"Comments","url":"comments.html","target":""}],"600949399968175944","<li><a href='#'>{{title}}<\/a><\/li>",'active',false)}
 if (jQuery) {
 if (jQuery.browser.msie && !window.flyoutMenusRefreshable) window.onload = initFlyouts;
 else jQuery(initFlyouts);
@@ -69,7 +73,7 @@ else document.observe('dom:loaded', initFlyouts);
 //-->
 </script>
 </head>
-<body class=' tall-header-page wsite-background  wsite-theme-dark wsite-page-index'>
+<body class=' landing-page wsite-background  wsite-theme-dark wsite-page-about'>
 <div id="wrapper">
 	<table id="header">
 		<tr>
@@ -91,26 +95,32 @@ else document.observe('dom:loaded', initFlyouts);
 			</td>
 		</tr>
 	</table>
-	<div id="navigation"><ul class='wsite-menu-default'><li id='active'><a href='index.html'>Home</a></li><li id='pg600949399968175944'><a href='about.html'>About</a></li><li id='pg861702271273381661'><a href='games.html'>Games</a><div class='wsite-menu-wrap' style='display:none'><ul class='wsite-menu'><li id='wsite-nav-414515932673800009'><a href='super-breaker.html' ><span class='wsite-menu-title'>Super Breaker</span></a></li><li id='wsite-nav-764631677866971764'><a href='pong.html' ><span class='wsite-menu-title'>Pong</span></a></li><li id='wsite-nav-175658021207601674'><a href='the-path.html' ><span class='wsite-menu-title'>The Path</span></a></li><li id='wsite-nav-428548636574689948'><a href='collecting-man1.html' ><span class='wsite-menu-title'>Collecting Man</span></a></li></ul></div></li><li id='pg483595883311213514'><a href='misc.html'>Misc.</a></li><li id='pg492092641724226078'><a href='feeds.html'>Feeds</a></li><li id='pg544917285985622539'><a href='comments.html'>Comments</a></li></ul></div>
+	<div id="navigation"><ul class='wsite-menu-default'><li id='pg945339324370837524'><a href='index.html'>Home</a></li><li id='active'><a href='about.html'>About</a></li><li id='pg861702271273381661'><a href='games.html'>Games</a><div class='wsite-menu-wrap' style='display:none'><ul class='wsite-menu'><li id='wsite-nav-414515932673800009'><a href='super-breaker.html' ><span class='wsite-menu-title'>Super Breaker</span></a></li><li id='wsite-nav-764631677866971764'><a href='pong.html' ><span class='wsite-menu-title'>Pong</span></a></li><li id='wsite-nav-175658021207601674'><a href='the-path.html' ><span class='wsite-menu-title'>The Path</span></a></li><li id='wsite-nav-428548636574689948'><a href='collecting-man1.html' ><span class='wsite-menu-title'>Collecting Man</span></a></li></ul></div></li><li id='pg483595883311213514'><a href='misc.html'>Misc.</a></li><li id='pg492092641724226078'><a href='feeds.html'>Feeds</a></li><li id='pg544917285985622539'><a href='comments.html'>Comments</a></li></ul></div>
 	<div id="banner">
-		<div class="wsite-header"></div>
+		<div id="inner-ban">
+			<div id="ban-left">
+				<div class="wsite-header"></div>
+			</div>
+			<div id="bannerright" class="landing-banner-outer">
+				<div class="landing-banner-mid">
+					<div class="landing-banner-inner">
+						<h2><span class='wsite-text wsite-headline'>About the site.</span></h2>
+						<p><span class='wsite-text wsite-headline-paragraph'>This sub-page(s) was created for the express purpose of centralized hosting and displaying of all games created by myself and my partners. As you may have noticed, quite some work has been put into the creation and maintaining of this part of the website. This website is hosted is made possible thanks to GitHub, which is a public code-hosting site. The rest of this website is dedicated to my own personal side projects, which are few and far between. Some fun information and showing-off are contained below :)<br /><font size="1"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; p.s - hover over the cards!</strong></font></span></p>
+						<div style="text-align:center;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="javascript:;" >
+<span class="wsite-button-inner">thanks for reading!</span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+					</div><!-- end banner inner -->
+				</div><!-- end banner mid -->
+			</div><!-- end banner-right -->
+		</div>
 	</div>
 	<div id="content"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<h2 class="wsite-content-title" style="text-align:left;">Video Game Design Webpage</h2>
-
-<div class="paragraph" style="text-align:left;">This site was previously hosted at Weebly, but was moved due to Weebly being a overall horrible hoster. The previous URL will redirect you to this new page, hosted by my personal GitHub domain. The rest of this website is still under construction.</div>
-
-<div><div style="height: 40px; overflow: hidden; width: 0px;"></div>
-<hr class="styled-hr" style="width:0px;"></hr>
-<div style="height: 40px; overflow: hidden; width: 0px;"></div></div></div>
+<div class="paragraph" style="text-align:center;"><font size="1">everything below this line is pointless, amazing fun stuff i've put together in my free time.</font></div></div>
 </div>
 	<div id="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
 </div>
-<!--[if !(lt IE 8)]><!-->
-   <script type="text/javascript">
-     (function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=document.location.protocol+"//d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
-   </script>
-<!--<![endif]-->
 
 </body>
 </html>

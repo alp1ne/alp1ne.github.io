@@ -1,0 +1,29 @@
+body {
+background-color:#B0B0B0;
+}
+
+.theonewhois {
+	position: relative;
+	padding-top: 10%;
+	display: table;
+	white-space:nowrap;
+}
+
+.child{
+    display:inline-block;
+    *display:inline; /* for IE7*/
+    *zoom:1;/* for IE7*/
+    min-width:100px;
+    min-height:50px;
+    margin-right:10px;
+    white-space:normal;
+}
+
+.parent{
+    white-space:nowrap;
+}
+
+.test{
+    padding-top: 10%;
+    padding-left: 10%
+}

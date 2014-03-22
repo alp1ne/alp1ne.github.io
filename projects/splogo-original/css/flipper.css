@@ -6,7 +6,7 @@
 			-moz-transform: perspective(1000px);
     			-moz-transform-style: preserve-3d; 
 
-			border: 0px solid #ccc;
+			border: 1px solid #ccc;
 		}
 
 			
@@ -64,16 +64,12 @@
 
 		.front {
 			-webkit-transform: rotateY(0deg);
-			*background: #909090;
-			background: #989898;
-			border-style: double;
-			border-color: #989898;
-      border-width: 1px;
+			background: lightgreen;
 			z-index: 2;
 		}
 
 		.back {
-			background: #C0C0C0;
+			background: lightblue;
 			-webkit-transform: rotateY(180deg);
 			-moz-transform: rotateY(180deg);
 			transform: rotateY(180deg);
@@ -120,7 +116,7 @@
 		}
 
 		.back p {
-			*position: absolute;
+			position: absolute;
 			bottom: 40px;
 			left: 0;
 			right: 0;

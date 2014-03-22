@@ -64,11 +64,11 @@
 
 		.front {
 			-webkit-transform: rotateY(0deg);
-			*background: #909090;
-			background: #989898;
+			background: #909090;
+			*background: #989898;
 			border-style: double;
 			border-color: #989898;
-      border-width: 1px;
+      border-width: 0px;
 			z-index: 2;
 		}
 

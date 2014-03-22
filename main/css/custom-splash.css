@@ -22,6 +22,7 @@ background-color:#909090;
 .front-card{
     padding-top: 180px;
     display:inline-block;
+    text-align: center
 }
 .projects {
     display:inline-block;
@@ -30,7 +31,7 @@ background-color:#909090;
    position:absolute;
    bottom:0;
    width:100%;
-   height:20px;   /* Height of the footer */
+   height:20px;
 }
 .introtext {
     text-align: center

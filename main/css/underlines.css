@@ -1,14 +1,14 @@
-p > a {
+a {
   position: relative;
   color: #000;
   text-decoration: none;
 }
 
-p > a:hover {
+a:hover {
   color: #000;
 }
 
-p > a:before {
+a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -23,7 +23,7 @@ p > a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-p > a:hover:before {
+a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

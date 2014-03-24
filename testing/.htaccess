@@ -1,4 +1,0 @@
-AuthName "Access Denied"
-AuthType Basic
-AuthUserFile /pass/.htpasswd
-require valid-user

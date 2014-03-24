@@ -1,3 +1,11 @@
+a.name,
+a:hover.name,
+a:focus.name,
+a:active.name 
+{
+text-decoration: none;
+}
+
 a {
   position: relative;
   color: #000;

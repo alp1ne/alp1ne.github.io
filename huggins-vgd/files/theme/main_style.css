@@ -1,5 +1,9 @@
 
 /*---------Kyle's Swag---------*/
+
+.normal:before { color: white; }
+.normal:hover { color: white; }
+
 .button {
 	font-size: 12px;
 	font-weight:bold;

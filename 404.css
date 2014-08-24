@@ -19,3 +19,7 @@
 .innermain p {
     font-size: 15px;
 }
+a {
+    color: #bdc3c7;
+    text-decoration: none;
+}

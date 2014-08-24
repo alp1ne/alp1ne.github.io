@@ -1,0 +1,21 @@
+.main {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: #4D5D6E;
+    /* background-color: #2c3e50; */
+}
+.innermain {
+    color: #bdc3c7;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.innermain p {
+    font-size: 15px;
+}
